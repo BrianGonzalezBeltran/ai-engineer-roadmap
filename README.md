@@ -18,4 +18,4 @@ Coming soon at [brainit.run](https://brainit.run)
 ## Learning Log
 - Day 1: Set up this repo, learned Git fundamentals
 - Day 1: Created first branch, practiced Git workflow
-
+- Day 2: Docker fundamentals and first container
