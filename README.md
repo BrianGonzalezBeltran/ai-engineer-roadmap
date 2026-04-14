@@ -20,3 +20,4 @@ Coming soon at [brainit.run](https://brainit.run)
 - Day 1: Created first branch, practiced Git workflow
 - Day 2: Docker fundamentals and first container
 - Day 3: FastAPI fundamentals and first real API
+- Day 4: Connected FastAPI to Ollama LLM, deployed AI-powered API on brainit.run
