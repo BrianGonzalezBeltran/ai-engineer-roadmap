@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Brian González Beltrán — AI Engineer</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: #0a0e27;
+    color: #e8e8e8;
+    line-height: 1.6;
+  }
+  .container { max-width: 900px; margin: 0 auto; padding: 60px 24px; }
+  header { margin-bottom: 60px; }
+  h1 { font-size: 2.5rem; margin-bottom: 12px; color: #fff; }
+  .subtitle { font-size: 1.2rem; color: #8b9cb6; margin-bottom: 24px; }
+  .links a {
+    color: #4a9eff; text-decoration: none; margin-right: 20px; font-size: 0.95rem;
+  }
+  .links a:hover { text-decoration: underline; }
+  section { margin-bottom: 50px; }
+  h2 {
+    font-size: 1.5rem; color: #fff; margin-bottom: 20px;
+    border-bottom: 2px solid #1f2847; padding-bottom: 8px;
+  }
+  p { margin-bottom: 16px; color: #c8d1e0; }
+  .projects { display: grid; gap: 20px; }
+  .project {
+    background: #131836; padding: 24px; border-radius: 8px;
+    border-left: 4px solid #4a9eff;
+  }
+  .project h3 { color: #fff; margin-bottom: 8px; }
+  .project p { color: #a8b5cc; margin-bottom: 12px; font-size: 0.95rem; }
+  .project a {
+    color: #4a9eff; text-decoration: none; font-size: 0.9rem;
+    display: inline-block; margin-right: 16px;
+  }
+  .project a:hover { text-decoration: underline; }
+  .stack { color: #6b7a99; font-size: 0.85rem; margin-top: 8px; }
+  footer {
+    margin-top: 60px; padding-top: 20px;
+    border-top: 1px solid #1f2847; color: #6b7a99; font-size: 0.85rem;
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Brian González Beltrán</h1>
+      <p class="subtitle">Data & AI Engineer · Bogotá, Colombia</p>
+      <div class="links">
+        <a href="mailto:briangonzalezbeltran@gmail.com">Email</a>
+        <a href="https://github.com/BrianGonzalezBeltran" target="_blank">GitHub</a>
+        <a href="https://linkedin.com/in/briangonzalezbeltran" target="_blank">LinkedIn</a>
+      </div>
+    </header>
+
+    <section>
+      <h2>About</h2>
+      <p>Industrial Engineer from Universidad de los Andes with 5+ years building data systems across banking, fintech, and the public sector. Currently transitioning into AI Engineering — building production-grade LLM applications, RAG systems, and automation pipelines on my own infrastructure.</p>
+      <p>This site hosts live projects that I designed, built, and deployed end-to-end. Everything here runs on a self-managed Oracle Cloud server using Docker, FastAPI, Ollama, and ChromaDB.</p>
+    </section>
+
+    <section>
+      <h2>Live Projects</h2>
+      <div class="projects">
+        <div class="project">
+          <h3>RAG Question-Answering API</h3>
+          <p>A retrieval-augmented generation system that answers questions based on real documents instead of hallucinating. Embeds documents into a vector database, retrieves relevant context, and grounds LLM responses in source material.</p>
+          <a href="https://api.brainit.run/rag/docs" target="_blank">Try the API →</a>
+          <a href="https://github.com/BrianGonzalezBeltran/ai-engineer-roadmap/tree/main/rag-api" target="_blank">View code →</a>
+          <div class="stack">FastAPI · ChromaDB · Ollama · phi3:mini · nomic-embed-text</div>
+        </div>
+
+        <div class="project">
+          <h3>LLM Chat API</h3>
+          <p>A FastAPI service that serves a locally-hosted language model through a simple REST endpoint. Demonstrates LLM integration, prompt handling, and async request management.</p>
+          <a href="https://api.brainit.run/llm/docs" target="_blank">Try the API →</a>
+          <a href="https://github.com/BrianGonzalezBeltran/ai-engineer-roadmap/tree/main/llm-api" target="_blank">View code →</a>
+          <div class="stack">FastAPI · Docker · Ollama · phi3:mini</div>
+        </div>
+
+        <div class="project">
+          <h3>API Health Monitoring System</h3>
+          <p>Production monitoring system built for the Bogotá Secretariat of Economic Development. Detects external API failures (Google Geocoding, Registraduría) and sends automated email alerts via webhooks before users notice the problem.</p>
+          <a href="https://github.com/BrianGonzalezBeltran/ai-engineer-roadmap" target="_blank">Learn more →</a>
+          <div class="stack">Python · n8n · Webhooks · YAML configs</div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Stack</h2>
+      <p><strong>Languages:</strong> Python, SQL (advanced), R, VBA</p>
+      <p><strong>AI & Data:</strong> FastAPI, ChromaDB, Ollama, MS Fabric, Power BI, Snowflake, RAG architectures</p>
+      <p><strong>Infrastructure:</strong> Docker, nginx, Linux, Oracle Cloud, n8n, Git</p>
+    </section>
+
+    <footer>
+      Built and deployed by Brian — running on Oracle Cloud (ARM, 24GB RAM) under brainit.run
+    </footer>
+  </div>
+</body>
+</html>
