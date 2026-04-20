@@ -26,4 +26,4 @@ Building the skills to become a production-ready AI Engineer:
 - Day 4: Connected FastAPI to Ollama LLM, deployed AI-powered API on brainit.run
 - Day 5: Built RAG system with ChromaDB, Ollama embeddings, and FastAPI — grounded answers from real documents
 - Day 6: Configured nginx reverse proxy with HTTPS (Let's Encrypt), set up subdomains, built portfolio landing page at brainit.run
-
+- Day 7: Dockerized RAG API, added auto-restart to all services, closed raw ports, added self-monitoring with n8n, full reboot test passed
