@@ -12,8 +12,11 @@ Building the skills to become a production-ready AI Engineer:
 - Cloud infrastructure (Docker, CI/CD)
 - End-to-end AI applications
 
-## Projects
-Coming soon at [brainit.run](https://brainit.run)
+## Live Projects
+
+- **Portfolio:** [https://brainit.run](https://brainit.run)
+- **RAG API:** [https://api.brainit.run/rag/docs](https://api.brainit.run/rag/docs)
+- **LLM Chat API:** [https://api.brainit.run/llm/docs](https://api.brainit.run/llm/docs)
 
 ## Learning Log
 - Day 1: Set up this repo, learned Git fundamentals
